@@ -1,0 +1,80 @@
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    margin: 0;
+    letter-spacing: 0.5px;
+    padding: 0;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+.header{
+  display: block;
+  position: relative;
+  padding: 24px 0;
+  margin: 0 auto;
+  -webkit-transition: all 0.2s;
+     -moz-transition: all 0.2s;
+       -o-transition: all 0.2s;
+          transition: all 0.2s;
+}
+
+.logo{
+  background: url('../images/4dww.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 400px 167px;
+  display: block;
+  height: 167px;
+  margin: 0 auto;
+  position: relative;
+  width: 400px;
+  -webkit-transition: all 0.2s;
+     -moz-transition: all 0.2s;
+       -o-transition: all 0.2s;
+          transition: all 0.2s;
+}
+
+.video-wrapper{
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.video-holder{
+  display: block;
+  margin: 0px auto;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+  width: 100%;
+}
+
+iframe{
+  display: block;
+  height: 100%;
+  margin: 0 auto;
+  position: absolute;
+  width: 100%;
+  -webkit-transition: all 0.2s;
+     -moz-transition: all 0.2s;
+       -o-transition: all 0.2s;
+          transition: all 0.2s;
+}
+
+
+@media screen and (max-width: 540px) {
+    .header{
+      padding: 36px 0;
+    }
+    .logo{
+        background-size: 300px 125px;
+        height: 125px;
+        width: 300px
+    }
+}
